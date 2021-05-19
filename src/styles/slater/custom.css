@@ -1,0 +1,148 @@
+body {
+    background-color: #F5F3EE !important;
+}
+
+/* minicart styles update */ 
+.w-100 {
+    width: 100%;
+}
+.bg-beige {
+    background-color: #FAF9F6;
+}
+
+.cart-drawer-custom {
+    max-width: 405px;
+}
+
+.js-items .cart-quantity {
+    display: none;
+}
+
+.js-items .js-single-quantity {
+    margin-top: 15px;
+    width: 95px;
+    border: 1px solid black;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+
+.cart-drawer-custom h3 {
+    font-weight: 500;
+    font-size: 20px;
+    padding-top: 40px;
+}
+.close-btn {
+    background-color: transparent;
+    top: 58px;
+}
+.cart-drawer__items .js-items{
+    height: auto;
+}
+.cart-drawer__item img {
+    width: 95px;
+    height: 131px;
+    object-fit: cover;
+}
+
+.cart-settings {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.js-remove-item {
+    display: none;
+}
+
+.order-note textarea{
+    border: 1px solid #979797;
+    width: 100%;
+    height: 100px;
+    font-family: 'Nunito';
+}
+
+.order-note h4,
+.checkout-options h4 {
+    font-weight: bold;
+    font-size: 15px;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.checkout-options h4 span:last-child {
+    font-weight: normal;
+}
+
+.order-note textarea::placeholder{
+    font-family: 'Nunito';
+    color: #AEADAB; 
+}
+
+.custom-checkout {
+    background-color: #273E22 !important;
+    height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 auto;
+    width: calc(100% - 60px);
+    letter-spacing: 2px;
+    font-size: 11px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.checkout-options {
+    padding: 30px 30px 15px;
+    width: 100%;
+}
+.checkout-options .subtotal {
+    display: flex;
+    justify-content: space-between;
+}
+.checkout-options p {
+    font-size: 15px;
+}
+/* minicart styles update */
+
+/*cart page update*/
+.template-cart h1,
+.template-cart .sub-heading {
+    text-align: center;
+    width: 100%;
+}
+
+.template-cart .responsive-table {
+    width: 100%;
+}
+
+.template-cart .cart-page-note {
+    max-width: 670px;
+    width: 100%;
+    height: 100px;
+    background-color: #FAF9F6;
+}
+
+.template-cart .order-note-cart {
+    font-weight: bold;
+    font-size: 15px;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.template-cart .cart-page-checkout-settings-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.template-cart .checkout-buttons {
+    display: flex;
+}
+
+.template-cart .cart-page-checkout-note {
+    width: 50%;
+}
